@@ -1,6 +1,6 @@
 /* Icons theme and transparency */
 
-.tweet-button, .app-search-fake, .icon, .Icon, a:-webkit-any-link, .color-twitter-blue, .facet-subtitle, .stroke-twitter-blue, html.dark .Button, html.dark .Button.is-visited, html.dark .Button:visited, html.dark button, html.dark button.is-visited, html.dark button:visited, html.dark input.is-visited[type=button], html.dark input:visited[type=button], html.dark input[type=button]{
+.tweet-button, .app-search-fake, .icon, .Icon, a:-webkit-any-link, .color-twitter-blue, .facet-subtitle, .stroke-twitter-blue, html.dark .Button, html.dark .Button.is-visited, html.dark .Button:visited, html.dark button, html.dark button.is-visited, html.dark button:visited, html.dark input.is-visited[type=button], html.dark input:visited[type=button], html.dark input[type=button], i.block.column-type-icon.icon.color-twitter-blue.icon-message::before{
 
     color:#8CC63F !important;
     background-color: transparent !important;
