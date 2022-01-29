@@ -1,0 +1,59 @@
+/* Roboto font*/ 
+
+*{font-family:'Roboto', sans-serif !important;}
+
+/* Message privacy */ 
+
+.column article[data-tweet-id=""] .tweet-text {
+    filter: saturate(0%) blur(15px) opacity(75%);
+}
+
+.column:hover article[data-tweet-id=""] .tweet-text {
+    filter: none;
+}
+
+/* Icons theme and transparency */
+
+.tweet-button, .app-search-fake, .icon, .Icon, .color-twitter-blue, .facet-subtitle, .stroke-twitter-blue, html.dark .Button, html.dark .Button.is-visited, html.dark .Button:visited, html.dark button, html.dark button.is-visited, html.dark button:visited, html.dark input.is-visited[type=button], html.dark input:visited[type=button], html.dark input[type=button], i.block.column-type-icon.icon.color-twitter-blue.icon-message::before{
+
+    color:#F2BA52 !important;
+    background-color: transparent !important;
+    border: 2px transparent !important;
+    stroke: #F2BA52 !important;
+}
+
+/* Icon media player */
+
+i.icon.icon-bg-dot.icon-twitter-blue-color{
+    opacity: 0.5;
+    background-color: transparent !important;
+    outline: none;
+}
+
+a.js-other-replies-link.other-replies-link{
+    color: #8A9BA6;
+}
+
+span.link-complex-target, span.hash::selection, account-link.txt-bold::selection, .hash, link-complex, element.style, html.dark a{
+    color: #e2b562;
+}
+
+html.dark .is-favorite .icon-favorite-toggle{
+    color: #A62940;
+}
+
+html.dark .is-retweet .icon-retweet-toggle {
+    color: #299859;
+}
+
+span.column-number::before, i.pull-left.margin-l--10.margin-r--2.column-type-icon.icon.icon-list{
+    color: transparent;
+}
+
+h1.js-logo.app-title.btd-logo-title{
+    display: none;
+}
+
+i.js-column-drag-handle.is-movable.column-drag-handle.pull-left.sprite.sprite-drag-vertical{
+    display: none;
+}
