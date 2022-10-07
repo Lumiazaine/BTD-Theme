@@ -1,6 +1,8 @@
 /* Roboto font*/ 
 
-*{font-family:'Roboto', sans-serif !important;}
+html.dark {
+    font-family: Roboto, sans-serif;
+}
 
 /* Message privacy */ 
 
